@@ -1,26 +1,10 @@
-# Build output
-bin/
-obj/
+# Build output (the prebuilt bankapp.exe in the repo root is tracked on purpose)
 *.o
 *.obj
-*.out
+build/
 
-# Code::Blocks
-*.depend
-*.layout
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env
-
-# Secrets / device credentials
-*.pem
-*.crt
-*.key
-secrets.h
+# Assets not distributed
+assets/*.mp3
 
 # OS / editor
 .DS_Store
